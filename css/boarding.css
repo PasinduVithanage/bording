@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600&display=swap');
+
+.article-contener{
+  background-image: linear-gradient(180deg, rgb(163, 100, 6), rgb(250, 250, 250));
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-toggler {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0.5rem;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-90deg, rgba(204, 201, 196, 0.54), rgba(121, 68, 0, 0.87)), url(../img/header_bg.jpg);
+  background-position: 25%;
+  background-repeat: no-repeat;
+}
+
+nav {
+  margin-top: 3%;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.tagline {
+  margin-top: 7%;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+label{
+  color: #ffffff;
+  font-weight: 600;
+}
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{background: #eee;font-family: sans-serif;}
+.flexone{flex: 1;}
+
+.groups{
+  margin: 0 auto;
+  width: 1000px;
+  padding: 10px;
+  height: auto;
+}
+.groups li{
+  position: relative;
+  list-style: none;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 4px 0 #0001;
+  overflow: hidden;
+  margin-bottom: 30px;
+  transition: all 0.3s;
+}
+.groups li:hover{
+  transform: scale(1.04);
+  box-shadow: 0 4px 14px 0 #0005;
+}
+.groups .card{
+  overflow: hidden;
+  display: block;
+}
+.groups .image-session{
+  float: left;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.groups .image-session .image{
+  width: 280px;
+  height: 220px;
+  display: block;
+  background-size: cover;
+  background-position: center;
+}
+.groups .meta-sission{
+  position: relative;
+  padding: 15px;display: block;
+  height: 220px;
+}
+.groups .meta-sission .head{
+  display: flex;
+  margin-bottom: 10px;
+}
+.groups .meta-sission .head .catogry{
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #91630e;
+}
+
+.groups .body .title{
+  height: 60px;overflow: hidden;
+  font-size: 24px;
+}
+.groups .body .desc{
+  height: 45px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.groups .footer .button{
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+  background: rgba(121, 68, 0, 0.87);
+  color: #fff;
+  line-height: 2.2;
+  padding: 0 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 1px 6px 0 #0004;
+  transition: all 0.3s;
+}
+.groups .footer .button:hover{
+  box-shadow: 0 3px 8px 0 #0005;
+  background: rgba(121, 68, 0, 0.87);
+  right: 15px;
+}
+
+@media screen and (max-width:780px){.groups{    width: 96%;}
+    .groups li:hover{    transform: none;    box-shadow: none;}
+}
+@media screen and (max-width:560px){.groups .image-session{    float: none;    margin-right: 0;}
+    .groups .image-session .image{width: 100%;}
+}
